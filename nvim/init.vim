@@ -58,13 +58,10 @@ nnoremap <silent>    <A-tab> :BufferNext<CR>
 " Close buffer
 nnoremap <silent>    <A-c> :BufferClose<CR>
 
-
-
+" Close/Open NvimTree
 nnoremap t :NvimTreeToggle<CR>
 
-
 " COC STUFF
-
 lua require'nvim-tree'.setup {}
 inoremap <silent><expr> <TAB>
       \ pumvisible() ? "\<C-n>" :
